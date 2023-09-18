@@ -1,6 +1,25 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #f3ebe2;
+  margin: 0;
   /* font-family: "Fraunces", serif; */
+}
+
+.preview-container {
+  display: grid;
+  background-color: hsl(0, 0%, 100%);
+  grid-template-columns: 1fr;
+  place-items: center;
+  max-width: 80%;
+  margin: 0 auto; /* Center the grid container */
+  margin-top: 3.1rem;
+  border-radius: 8px;
+}
+.preview-container img {
+  max-width: 100%;
+}
+.info-container {
+  display: grid;
 }
 
 footer {
