@@ -103,3 +103,21 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+
+/* Larger Screens */
+
+@media only screen and (min-width: 660px) {
+  .preview-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .preview-container img {
+    max-width: 100%;
+    border-radius: 8px 0 0 8px;
+  }
+
+  .content-container {
+    padding: 1.5rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+  }
+}
