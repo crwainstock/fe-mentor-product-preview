@@ -10,7 +10,7 @@ body {
   grid-template-columns: 1fr;
   place-items: center;
   max-width: 81%;
-  margin: 0 auto; /* Center the grid container */
+  margin: 0 auto;
   margin-top: 3rem;
   border-radius: 8px;
 }
@@ -19,16 +19,15 @@ body {
   border-radius: 8px 8px 0 0;
 }
 
+#product-image-desktop {
+  display: none;
+}
 .content-container {
   padding: 1.5rem;
   padding-top: 1rem;
   box-sizing: border-box;
 }
-/* I'm not sure what this belongs to...haha! If I delete it, the layout is
-messed up... */
-.info-container {
-  display: grid;
-}
+
 .product-info h2 {
   margin-top: 0.2rem;
   font-size: 3.2vw;
@@ -113,13 +112,13 @@ footer {
     max-width: 47%;
   }
   .preview-container img {
-    /* width: 100%;
-    height: auto; */
     border-radius: 8px 0 0 8px;
   }
-  #product-image {
-    height: 100%;
-    width: auto;
+  #product-image-desktop {
+    display: block;
+  }
+  #product-image-mobile {
+    display: none;
   }
   .content-container {
     padding: 2rem;

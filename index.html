@@ -28,8 +28,19 @@
   </head>
   <body>
     <div class="preview-container">
-      <img id="product-image" alt="Perfume bottle" />
+      <picture>
+        <img
+          id="product-image-desktop"
+          alt="Perfume bottle"
+          src="./Project Requirements/images/image-product-desktop.jpg"
+        />
 
+        <img
+          id="product-image-mobile"
+          alt="Perfume bottle"
+          src="./Project Requirements/images/image-product-mobile.jpg"
+        />
+      </picture>
       <div class="content-container">
         <div class="product-info">
           <h2>Perfume</h2>
@@ -64,7 +75,7 @@
         >Crystal</a
       >.
     </footer>
-    <script>
+    <!-- <script>
       const screenWidth = window.screen.width;
       let imgSrc = null;
       const loadImage = () => {
@@ -84,6 +95,6 @@
       // But if you change the screen size manually, like resize the window, the image doesn't change
       // unless you reload the window. I thought maybe an eventlistener here could check the screen size
       // in the event the window is resized, but it's not working yet.
-    </script>
+    </script> -->
   </body>
 </html>
