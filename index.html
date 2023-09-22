@@ -29,13 +29,7 @@
   <body>
     <div class="preview-container">
       <picture>
-        <img
-          srcset="./Project Requirements/images/image-product-mobile.jpg 360w,
-          ./Project Requirements/images/image-product-desktop.jpg 1920w"
-          sizes="(max-width: 660px) 360px, 1920px"
-          src="./Project Requirements/images/image-product-mobile.jpg"
-          alt="Perfume bottle"
-        />
+        <img id="product-image" alt="Perfume bottle" />
       </picture>
       <div class="content-container">
         <div class="product-info">
@@ -71,5 +65,20 @@
         >Crystal</a
       >.
     </footer>
+    <script>
+      const screenWidth = window.screen.width;
+      let imgSrc = null;
+      const loadImage = () => {
+        if (screenWidth <= 660) {
+          imgSrc = "./Project Requirements/images/image-product-mobile.jpg";
+        } else {
+          imgSrc = "./Project Requirements/images/image-product-desktop.jpg";
+        }
+        const productImage = document.getElementById("product-image");
+        productImage.src = imgSrc;
+      };
+
+      loadImage();
+    </script>
   </body>
 </html>
