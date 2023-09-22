@@ -41,12 +41,16 @@ messed up... */
   margin-top: 0rem;
   font-weight: 700;
   line-height: 1;
+  margin-bottom: 1rem;
 }
 .product-info h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.3vw;
-  letter-spacing: 1px;
+  font-size: 3.5vw;
+  letter-spacing: 0.4px;
   font-weight: 500;
+  line-height: 1.5;
+  margin-top: 0rem;
+  padding-right: 0.5rem;
 }
 footer {
   margin-top: 3rem;
