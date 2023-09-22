@@ -60,12 +60,26 @@ messed up... */
   color: hsl(158, 36%, 37%);
   font-size: 7.5vw;
   margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 .pricing p {
   font-family: "Montserrat", sans-serif;
   text-decoration: line-through;
   margin-top: 1.3rem;
   font-size: 3vw;
+}
+button {
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border-style: solid;
+  border-color: hsl(158, 36%, 37%);
+  border-radius: 8px;
+}
+.button-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
 }
 footer {
   margin-top: 3rem;
