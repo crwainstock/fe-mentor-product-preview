@@ -58,6 +58,8 @@ messed up... */
 }
 .pricing h3 {
   color: hsl(158, 36%, 37%);
+  font-size: 7.5vw;
+  margin-top: 0.5rem;
 }
 footer {
   margin-top: 3rem;
