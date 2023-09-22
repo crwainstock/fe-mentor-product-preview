@@ -76,6 +76,12 @@ button {
   border-color: hsl(158, 36%, 37%);
   border-radius: 8px;
 }
+button:hover,
+button:active {
+  background-color: #194131;
+  border-color: #194131;
+}
+
 .button-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
