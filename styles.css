@@ -81,7 +81,19 @@ button {
   grid-template-columns: 1fr 2fr;
   place-items: center;
 }
+.button-grid img {
+  margin-left: 5.7rem;
+}
+.button-grid p {
+  font-weight: 700;
+  margin-right: 4.5rem;
+  font-size: 3.5vw;
+  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
+}
 footer {
   margin-top: 3rem;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
