@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   margin-top: 3rem;
   border-radius: 8px;
+  border: none;
 }
 .preview-container img {
   max-width: 100%;

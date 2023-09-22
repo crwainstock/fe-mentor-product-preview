@@ -22,29 +22,9 @@ In the [last Frontend Mentor build](https://github.com/crwainstock/fe-mentor-sta
 
 This component also required multiple images to be rendered depending on the view, and again, I couldn't get the html to work the way I needed it to. With this build, though, I decided to make a workaround using vanilla JavaScript to check the screensize and then render the image for either the mobile or desktop view.
 
-The JavaScript function is as follows:
+After trying to use JavaScript to render the images conditionally, which sort of worked as I had it, I got some feedback from someone in the Frontend Mentor community (thanks!!) and managed to get the images to display based on whether the mobile or desktop view CSS is being rendered.
 
-```
-      const screenWidth = window.screen.width;
-      let imgSrc = null;
-      const loadImage = () => {
-        if (screenWidth <= 660) {
-          imgSrc = "./Project Requirements/images/image-product-mobile.jpg";
-        } else {
-          imgSrc = "./Project Requirements/images/image-product-desktop.jpg";
-        }
-        const productImage = document.getElementById("product-image");
-        productImage.src = imgSrc;
-      };
-
-      loadImage();
-```
-
-This solution works for the initial render, but if you manually change screen size, by changing the browser window, for example, the image doesn't update unless you refresh it.
-
-I also tried using an event listener to run the loadImage function when the window is resized, but it wasn't working quite the way I had hoped. While all of this allows each image to render based on the screen view, it's not, perhaps, the ideal solution to this issue.
-
-I think there is also some layout weirdness when screens get below 400px wide. With a bit more time, these issues could be resolved pretty easily, though, I think.
+This was a learning experience, for sure!
 
 ## 👀 Demo & Live Version
 
