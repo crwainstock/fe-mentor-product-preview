@@ -49,3 +49,6 @@ I think there is also some layout weirdness when screens get below 400px wide. W
 ## 👀 Demo & Live Version
 
 Check out the live version of this component [here](https://reliable-cupcake-1661bb.netlify.app/).
+
+And here's a little look at how the desktop version of the component compares with the design from the brief.
+![gif comparing desktop view](./product%20compare.gif)
