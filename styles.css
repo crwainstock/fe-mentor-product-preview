@@ -146,6 +146,9 @@ footer {
     margin-top: 1.6rem;
     padding-right: 0.5rem;
   }
+  .pricing {
+    margin-bottom: 0.8rem;
+  }
   .pricing h3 {
     color: hsl(158, 36%, 37%);
     font-size: 2.5vw;
@@ -156,17 +159,21 @@ footer {
     font-family: "Montserrat", sans-serif;
     text-decoration: line-through;
     margin-top: 1.3rem;
+    margin-left: 1.2rem;
     font-size: 1vw;
   }
+  .button-grid {
+    padding: 0.1rem;
+  }
   .button-grid img {
-    margin-left: 4rem;
-    max-width: 18%;
+    margin-left: 3.2rem;
+    max-width: 20%;
   }
   .button-grid p {
     font-weight: 700;
-    margin-right: 4.5rem;
-    font-size: 1vw;
-    margin-top: 0.8rem;
+    margin-right: 2.5rem;
+    font-size: 1.2vw;
+    margin-top: 0.5rem;
     margin-bottom: 0.6rem;
   }
 }
