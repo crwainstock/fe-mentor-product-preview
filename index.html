@@ -80,6 +80,11 @@
 
       loadImage();
       console.log(imgSrc);
+      // window.addEventListener("resize", loadImage());
+      // Currently, when the page loads, the correct image loads based on the screen size.
+      // But if you change the screen size manually, like resize the window, the image doesn't change
+      // unless you reload the window. I thought maybe an eventlistener here could check the screen size
+      // in the event the window is resized, but it's not working yet.
     </script>
   </body>
 </html>
