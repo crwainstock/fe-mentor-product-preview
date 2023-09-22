@@ -29,14 +29,12 @@
   <body>
     <div class="preview-container">
       <picture>
-        <source
-          alt="perfume bottle"
-          media="(min-width:660px)"
-          srcset="./Project Requirements/images/image-product-desktop.jpg"
-        />
         <img
-          alt="perfume bottle"
+          srcset="./Project Requirements/images/image-product-mobile.jpg 360w,
+          ./Project Requirements/images/image-product-desktop.jpg 1920w"
+          sizes="(max-width: 660px) 360px, 1920px"
           src="./Project Requirements/images/image-product-mobile.jpg"
+          alt="Perfume bottle"
         />
       </picture>
       <div class="content-container">
