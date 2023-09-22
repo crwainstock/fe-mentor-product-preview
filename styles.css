@@ -52,6 +52,10 @@ messed up... */
   margin-top: 0rem;
   padding-right: 0.5rem;
 }
+.pricing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .pricing h3 {
   color: hsl(158, 36%, 37%);
 }
