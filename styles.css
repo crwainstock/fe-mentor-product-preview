@@ -61,6 +61,12 @@ messed up... */
   font-size: 7.5vw;
   margin-top: 0.5rem;
 }
+.pricing p {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: line-through;
+  margin-top: 1.3rem;
+  font-size: 3vw;
+}
 footer {
   margin-top: 3rem;
   text-align: center;
